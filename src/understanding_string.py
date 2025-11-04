@@ -33,7 +33,7 @@ de la variable name.
     por que en ocaciones neccesita informacion adicional
     para funcionar, la cual iria dentro de los parentesis.
     En esta ocacion, el metodo .title() no requiere informacion 
-    adicional para funcionar.
+    adicional para funcionar.
 
 
 """
@@ -49,3 +49,41 @@ full_name = first_name + "" + last_name
 print(full_name)
 print(full_name.title())
 
+#Whitespaces
+"""
+Se refiere a cualquier caracter que no se imprime,
+es decir, un espacio, tabuladores y saltos de linea
+los Whitespaces se utilizan comunmente para organizar
+las salidas de tal manera que sea mas amigable de leer
+o ver para el usuario
+
+Ejemplo:
++ Tabuladore: \t
++ Salto de linea: \n
+
+"""
+
+print("Whitespaces Tabuladores")
+print("tabulador")
+print("\tPython")
+print("\t\tPython")
+
+print("Whitespace Salto de linea")
+print("lenguaje: Python\n\tC++\n\tJava_script\n")
+
+
+#Eliminacion de espacios en blanco
+
+
+Programing_lenguages = " Python" 
+print(Programing_lenguages)
+print(Programing_lenguages.rstrip())
+print(Programing_lenguages.lstrip())
+print(Programing_lenguages.rstrip())
+
+#Error de sintaxis en Strings
+
+message = "Una fortaleza de python es su comunidad"
+print(message)
+message = "Una fortaleza de "python" es su comunidad"
+print(message)
