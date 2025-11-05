@@ -85,5 +85,5 @@ print(Programing_lenguages.rstrip())
 
 message = "Una fortaleza de python es su comunidad"
 print(message)
-message = "Una fortaleza de "python" es su comunidad"
+message = "Una fortaleza de python es su comunidad"
 print(message)
