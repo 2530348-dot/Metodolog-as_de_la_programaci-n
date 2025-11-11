@@ -18,3 +18,18 @@ for value in range(10): #Genera 10 numeros entre el 0 y el 9
 
  for value in range(1,10): #Genera 10 numeros entre el 0 y el 9
   print(value) 
+
+squares = []
+
+for i in range(1, 11):
+    cuadrado = i ** 2
+    squares.append(cuadrado)
+
+print("Lista de cuadrados de los primeros 10 números:")
+print(squares)
+
+print("\nDetalles:")
+for i in range(1, 11):
+    print(f"El cuadrado de {i} es {i ** 2}")
+
+    
