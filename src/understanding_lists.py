@@ -206,4 +206,6 @@ ultimo = autos.pop()
 autos.sort()
 autos.reverse()
 print("Lista final:", autos)
+
+print(f"El último auto eliminado fue: {ultimo}")
 print(f"El último auto eliminado fue: {ultimo}")
