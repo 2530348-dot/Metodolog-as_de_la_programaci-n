@@ -77,3 +77,19 @@ for guiso in guisos_a_ordenar:
 else:
     print("no tenemos de ese guiso")
 print("Realizado el pedido")
+
+# Diccionario
+"""
+Para definir un diccionario se utilizan las llaves {}.
+Ejemplo de un diccionario vacío:
+    students = {}
+
+Ejemplo de un diccionario con información:
+    students = {"Name": "Gabriel"}
+
+Los diccionarios son capaces de almacenar una gran cantidad de información.
+"""
+
+student_0 = {"Name": "Gabriel"}
+student_1 = {"Name": "Cecya", "Age": 18}
+
