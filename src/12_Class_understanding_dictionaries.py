@@ -18,3 +18,8 @@ print(marge("headshot"))
 
 gun = {"color":"yellow or orange","headshot": 1.5}
 
+
+#Nesting
+#Diccionarios de diccionarios
+#Listas en diccionarios
+#Diccionarios de diccionarios
