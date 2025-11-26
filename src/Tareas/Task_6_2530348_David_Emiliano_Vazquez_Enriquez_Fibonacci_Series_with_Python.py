@@ -64,25 +64,25 @@ Test cases:
 """
 
 # Fibonacci series generator
-try:
-    n_input = input("Enter the number of terms: ")
+n_input = input("Enter the number of terms: ")
+
+if not n_input.isdigit():
+    print("Error: invalid input")
+else:
     n = int(n_input)
 
     if n < 1 or n > 50:
-        raise ValueError
+        print("Error: invalid input")
+    else:
+        fibonacci_series = []
+        a, b = 0, 1
 
-    fibonacci_series = []
-    a, b = 0, 1
+        for _ in range(n):
+            fibonacci_series.append(a)
+            a, b = b, a + b
 
-    for _ in range(n):
-        fibonacci_series.append(a)
-        a, b = b, a + b
-
-    print("Number of terms:", n)
-    print("Fibonacci series:", " ".join(str(x) for x in fibonacci_series))
-
-except ValueError:
-    print("Error: invalid input")
+        print("Number of terms:", n)
+        print("Fibonacci series:", " ".join(str(x) for x in fibonacci_series))
 
 """
 Conclusiones

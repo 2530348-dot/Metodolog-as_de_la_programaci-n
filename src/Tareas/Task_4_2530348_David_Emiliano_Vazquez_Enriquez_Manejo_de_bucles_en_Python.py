@@ -11,23 +11,15 @@ Fecha: 22/11/2025
 """
 RESUMEN EJECUTIVO
 
-Este proyecto se centra en el uso y aplicación de los bucles en Python, 
-principalmente las estructuras "for" y "while". Estas herramientas de control de 
-flujo permiten que un programa repita tareas de manera eficiente, automatice 
-procesos y trabaje con secuencias de datos sin necesidad de instrucciones 
-repetitivas.
+Este proyecto trata sobre el uso de los bucles for y while
+en Python y cómo ayudan a repetir tareas sin escribir muchas
+líneas de código. A través de varios ejercicios, se muestra
+cómo usar los bucles para sumar números, crear tablas, calcular
+promedios, validar contraseñas, hacer menús y generar patrones
+con asteriscos. El trabajo permite comprender mejor cómo funcionan
+las estructuras de repetición y cómo aplicarlas correctamente en 
+distintos problemas básicos de programación.
 
-Los ejercicios muestran cómo los bucles interactúan con rangos numéricos, listas, 
-procesamiento de cadenas, contadores, acumuladores y lógica condicional. Cada 
-problema incorpora validación de entradas, formateo adecuado de salidas y el uso 
-correcto de condiciones de terminación para evitar ciclos infinitos.
-
-Al resolver escenarios prácticos como cálculos iterativos, generación de patrones, 
-recorridos de datos y toma de decisiones basada en repetición, el proyecto refuerza 
-la capacidad del estudiante para diseñar algoritmos estructurados. El trabajo también 
-fortalece principios importantes de programación como legibilidad, modularidad y 
-corrección, brindando una base sólida para el desarrollo de programas más avanzados 
-en Python.
 """
 
 # 7.1 Problem 1: Sum of range with for
@@ -304,22 +296,14 @@ except:
 
 
 """
-CONCLUSIONES
-
-La realización de este proyecto permitió fortalecer el entendimiento de las 
-estructuras de repetición en Python y su importancia en la automatización de 
-tareas. Mediante el uso de los bucles "for" y "while", los ejercicios demostraron 
-cómo la iteración puede aplicarse en rangos numéricos, listas, manipulación de 
-cadenas, contadores y evaluaciones condicionales.
-
-Cada ejercicio resaltó la importancia de controlar adecuadamente los bucles mediante 
-condiciones de salida, validación de datos y lógica que evite ciclos infinitos. 
-La práctica de la repetición estructurada permitió diseñar algoritmos eficientes, 
-capaces de procesar información paso a paso y adaptarse a distintos escenarios.
-
-En general, el proyecto proporcionó una base sólida para continuar con técnicas de 
-programación más avanzadas, fomentando la claridad, eficiencia y habilidad para 
-resolver problemas mediante el uso adecuado de estructuras iterativas en Python.
+#Conclusion
+Este proyecto permitió entender mejor cómo funcionan los bucles for 
+y while en Python. Gracias a los ejercicios, fue posible practicar 
+tareas repetitivas, validación de datos y control del flujo del programa. 
+También se reforzó la importancia de evitar errores como ciclos infinitos 
+y de usar contadores y acumuladores cuando son necesarios. En general, 
+el proyecto ayudó a mejorar las habilidades básicas de programación y a 
+usar correctamente las estructuras de repetición.
 """
 """
 REFERENCIAS

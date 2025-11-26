@@ -11,28 +11,27 @@ Fecha: 22/11/2025
 """
 RESUMEN EJECUTIVO
 
-Las colecciones en Python permiten organizar y manipular datos de forma eficiente. 
-Las listas (list) son estructuras ordenadas y mutables, lo que permite agregar, 
-eliminar y modificar elementos durante la ejecución del programa. Las tuplas (tuple) 
-son estructuras ordenadas pero inmutables, ideales para representar datos fijos como 
-coordenadas o registros que no deben cambiar.
+Las Listas en Python ayudan a organizar datos de manera sencilla y práctica. 
+Las listas permiten guardar varios valores y modificarlos cuando sea necesario.  
+Las tuplas funcionan de forma similar, pero sus datos no se pueden cambiar, por 
+lo que son útiles para información que debe mantenerse fija, como coordenadas.  
 
-Los diccionarios (dict) almacenan información mediante pares clave-valor, 
-permitiendo búsquedas rápidas y gestión de datos relacionados como catálogos, 
-contactos o calificaciones.
+Los diccionarios guardan datos usando una clave y un valor, lo que facilita buscar 
+información rápida­mente, por ejemplo en catálogos, contactos o registros.
 
-Este documento contiene seis problemas prácticos que demuestran el uso real de listas, 
-tuplas y diccionarios. Cada problema incluye descripción, entradas, salidas, 
-validaciones y casos de prueba (normal, borde y error). A través de estos ejercicios 
-se aplican operaciones esenciales como búsqueda, actualización, agregación y 
-procesamiento de datos, reforzando el dominio de estas estructuras en contextos 
-prácticos de programación.
+En este documento se presentan seis ejercicios donde se usan listas, tuplas y 
+diccionarios en situaciones reales. Cada problema incluye su descripción y casos 
+de prueba, mostrando cómo agregar, buscar, actualizar y organizar datos. Estos 
+ejercicios ayudan a entender mejor cómo funcionan estas estructuras y cómo 
+aplicarlas en programas simples y útiles.
+
 """
 # Problem 1 – Shopping List Basics
 """
-DESCRIPTION:
-This program works with a list of items. It creates an initial list, adds a new item,
-counts the total items, and checks if a specific product exists.
+Descripción:
+Este programa trabaja con una lista de elementos. Crea una lista inicial, agrega
+un nuevo artículo, cuenta el total de elementos y revisa si un producto específico
+está dentro de la lista.
 
 INPUTS:
 - initial_items_text (string)
@@ -77,9 +76,9 @@ print("Found item:", is_in_list)
 
 # Problem 2 – Points and Distances with Tuples
 """
-DESCRIPTION:
-This program uses tuples to store coordinates for two points and calculates
-the Euclidean distance and midpoint.
+Descripción:
+Este programa usa tuplas para guardar las coordenadas de dos puntos y calcula
+la distancia euclidiana entre ellos, así como el punto medio.
 
 INPUTS:
 - x1, y1, x2, y2 (float)
@@ -118,8 +117,9 @@ print("Midpoint:", midpoint)
 
 # Problem 3 – Product Catalog Dictionary
 """
-DESCRIPTION:
-Manages a dictionary of products and calculates total price based on quantity.
+Descripción:
+Gestiona un diccionario de productos con sus precios y calcula el total a pagar
+según la cantidad solicitada por el usuario.
 
 INPUTS:
 - product_name (string)
@@ -163,9 +163,9 @@ else:
 
 # Problem 4 – Student Grades
 """
-DESCRIPTION:
-Uses a dictionary where each key is a student name and value is a list of grades.
-Computes average and determines if passed.
+Descripción:
+Utiliza un diccionario donde cada estudiante tiene una lista de calificaciones.
+Calcula el promedio y determina si el estudiante aprobó o no.
 
 INPUTS:
 - student_name (string)
@@ -212,8 +212,9 @@ else:
 
 # Problem 5 – Word Frequency Counter
 """
-DESCRIPTION:
-Counts the frequency of each word in a sentence using list + dictionary.
+Descripción:
+Cuenta la frecuencia de cada palabra en una oración usando listas y diccionarios.
+También identifica cuál es la palabra que más se repite.
 
 INPUTS:
 - sentence (string)
@@ -252,8 +253,10 @@ else:
 
 # Problem 6 – Contact Book CRUD
 """
-DESCRIPTION:
-Implements a contact book using a dictionary with ADD, SEARCH, and DELETE actions.
+Descripción:
+Implementa un sistema de contactos tipo CRUD con un diccionario, permitiendo
+agregar, buscar o eliminar contactos según la acción indicada.
+
 
 INPUTS:
 - action_text
@@ -310,24 +313,14 @@ else:
 
 
 """
-CONCLUSIONS
-
-Throughout the development of the programs, the practical use of Python’s fundamental
-data types—integers, floats, booleans, and strings—was reinforced through real
-applications. Each exercise demonstrated how proper input validation, conditional
-logic, and structured output contribute to reliable and predictable program behavior.
-
-The problems allowed the integration of numerical operations, string manipulation,
-and logical evaluations to solve tasks such as comparisons, classifications,
-unit conversions, and data processing. By implementing structured algorithms and
-testing them with multiple scenarios, the projects strengthened analytical thinking
-and problem-solving skills.
-
-Additionally, the emphasis on documenting inputs, outputs, and test cases improved
-clarity and maintainability, highlighting the importance of clean, organized, and
-well-designed code. Overall, this set of programs helps build a solid foundation
-for more advanced programming concepts and the development of efficient and
-professional Python applications.
+Conclusión:
+A lo largo de estos ejercicios se reforzaron las bases de Python mediante el uso
+de listas, tuplas, diccionarios y cadenas de texto. También se practicó la validación
+de entradas, el manejo de condiciones y la organización de datos. Cada programa
+permitió aplicar lógica y razonamiento para resolver problemas comunes, lo que
+ayuda a desarrollar pensamiento computacional y una mejor comprensión del flujo
+de un programa. En general, estos ejercicios fortalecen las habilidades necesarias
+para crear aplicaciones más avanzadas, confiables y bien estructuradas.
 """
 
 """

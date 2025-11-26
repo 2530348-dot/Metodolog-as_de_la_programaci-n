@@ -29,9 +29,9 @@ casos de prueba y conclusiones que reflejan la lógica aplicada en cada ejercici
 
 """
 
-Description:
-Formats a full name in Title Case and generates initials using the cleaned input.
-
+Descripción:
+Da formato a un nombre completo en 
+Title Case y genera sus iniciales usando la entrada limpiada.
 Inputs:
 - full_name: string
 
@@ -65,8 +65,9 @@ else:
 
 
 """
-Description:
-Checks if an email contains exactly one '@', has no spaces, and has at least one '.' after '@'.
+Descripción:
+Verifica si un correo electrónico contiene exactamente un '@', 
+no tiene espacios y cuenta con al menos un '.' después del '@'.
 
 Inputs:
 - email_text: string
@@ -102,8 +103,9 @@ else:
 #Problem 3: Palindrome checker
 
 """
-Description:
-Determines whether a phrase is a palindrome, ignoring spaces and case.
+Descripción:
+Determina si una frase es un palíndromo,
+ ignorando espacios y mayúsculas/minúsculas.
 
 Inputs:
 - phrase: string
@@ -137,8 +139,10 @@ else:
 #Problem 4: Sentence word stats
 
 """
-Description:
-Analyzes a sentence and shows total words, first word, last word, shortest and longest word.
+
+Descripción:
+Analiza una oración y muestra el total de palabras, la primera,
+ la última, así como la palabra más corta y la más larga.
 
 Inputs:
 - sentence: string
@@ -180,8 +184,9 @@ else:
 #Problem 5: Password strength classifier
 
 """
-Description:
-Classifies a password as weak, medium, or strong based on character variety and length.
+Descripción:
+Clasifica una contraseña como débil, 
+media o fuerte según la variedad de caracteres y su longitud.
 
 Inputs:
 - password_input: string
@@ -234,8 +239,9 @@ else:
 #Problem 6: Product label formatter
 
 """
-Description:
-Creates a product label with exactly 30 characters, padding or trimming as needed.
+Descripción:
+Crea una etiqueta de producto con exactamente 30 caracteres,
+ añadiendo relleno o recortando según sea necesario.
 
 Inputs:
 - product_name: string

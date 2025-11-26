@@ -131,18 +131,28 @@ def summarize_numbers(lista_numeros):
     }
 
 texto_numeros = "10,20,30,40"
-try:
-    if texto_numeros.strip() == "":
-        raise ValueError
-    lista = [x.strip() for x in texto_numeros.split(",") if x.strip() != ""]
-    if not lista:
-        raise ValueError
-    resultados = summarize_numbers(lista)
-    print("Mínimo:", resultados["min"])
-    print("Máximo:", resultados["max"])
-    print("Promedio:", resultados["average"])
-except:
+
+if texto_numeros.strip() == "":
     print("Error: entrada inválida")
+else:
+    lista = [x.strip() for x in texto_numeros.split(",") if x.strip() != ""]
+
+    if not lista:
+        print("Error: entrada inválida")
+    else:
+        valido = True
+        for x in lista:
+            if not x.replace(".", "", 1).isdigit():
+                valido = False
+                break
+
+        if not valido:
+            print("Error: entrada inválida")
+        else:
+            resultados = summarize_numbers(lista)
+            print("Mínimo:", resultados["min"])
+            print("Máximo:", resultados["max"])
+            print("Promedio:", resultados["average"])
 
 
 """ 
@@ -173,19 +183,37 @@ def apply_discount(lista_precios, tasa_descuento):
 
 texto_precios = "100,200,300"
 tasa_descuento = 0.1
-try:
-    lista = [float(x) for x in texto_precios.split(",")]
-    if any(p <= 0 for p in lista) or not (0 <= tasa_descuento <= 1):
-        raise ValueError
-    lista_descuento = apply_discount(lista, tasa_descuento)
-    print("Precios originales:", lista)
-    print("Precios con descuento:", lista_descuento)
-except:
+
+partes = [x.strip() for x in texto_precios.split(",")]
+
+if "" in partes:
     print("Error: entrada inválida")
+else:
+    valido = True
+    for x in partes:
+        if not x.replace(".", "", 1).isdigit():
+            valido = False
+            break
+
+    if not (0 <= tasa_descuento <= 1):
+        valido = False
+
+    if not valido:
+        print("Error: entrada inválida")
+    else:
+        lista = [float(x) for x in partes]
+        if any(p <= 0 for p in lista):
+            print("Error: entrada inválida")
+        else:
+            lista_descuento = apply_discount(lista, tasa_descuento)
+            print("Precios originales:", lista)
+            print("Precios con descuento:", lista_descuento)
+
 
 
 """ 
-Problema 5: Función de saludo con parámetros por defecto
+Problema 5: 
+Función de saludo con parámetros por defecto
 Descripción: Define greet(nombre, titulo="") que devuelva "Hola, <nombre_completo>!".
 El código principal debe llamar a la función usando argumentos posicionales y nombrados.
 
