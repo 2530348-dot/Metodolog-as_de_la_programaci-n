@@ -26,9 +26,10 @@ y garantizar que las operaciones de datos sean robustas y comprensibles.
 
 """
 Problem: In-memory CRUD manager with functions
-Description: Program that implements a simple CRUD (Create, Read, Update, Delete) 
-for items stored in a list of dictionaries using separate functions and a text-based menu.
-
+Programa que implementa un CRUD simple (Crear, Leer, Actualizar y Eliminar)
+para elementos almacenados en una lista de diccionarios, usando funciones separadas
+ y un menú basado en texto.
+ 
 Inputs:
 - Menu options (int)
 - For CREATE/UPDATE: item_id (string), name (string), price (float), quantity (int)
@@ -51,7 +52,7 @@ Test cases:
 3) Error: invalid menu option or invalid id → expected error messages
 """
 
-# CRUD implementation using list of dictionaries
+
 items = []
 
 def find_item_index_by_id(item_id):
@@ -192,8 +193,8 @@ más complejas, demostrando la flexibilidad de la programación modular en Pytho
 """
 Referencias
 
-[1] Python Software Foundation, “Python Documentation – Data structures,” [Online]. Available: https://docs.python.org/3/tutorial/datastructures.html
-[2] Python Software Foundation, “Python Documentation – Defining functions,” [Online]. Available: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
+[1] Python Software Foundation, “Python Documentation  Data structures,” [Online]. Available: https://docs.python.org/3/tutorial/datastructures.html
+[2] Python Software Foundation, “Python Documentation  Defining functions,” [Online]. Available: https://docs.python.org/3/tutorial/controlflow.html#defining-functions
 [3] Real Python, “Python CRUD Example,” [Online]. Available: https://realpython.com/python-crud/
 [4] M. Lutz, Learning Python, 5th ed., O'Reilly Media, 2013.
 [5] A. Sweigart, Automate the Boring Stuff with Python, 2nd ed., No Starch Press, 2019.

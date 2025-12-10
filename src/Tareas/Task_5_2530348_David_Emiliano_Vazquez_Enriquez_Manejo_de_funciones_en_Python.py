@@ -272,7 +272,6 @@ Casos de prueba:
 3) Error: n=-3
 """
 def factorial(n):
-    # Implementación iterativa
     result = 1
     for i in range(1, n + 1):
         result *= i
@@ -286,15 +285,17 @@ else:
     print("Error: entrada inválida")
 
 
-# Conclusion 
+
 """
+Conclusion 
 El manejo de funciones en Python es fundamental para desarrollar programas claros, 
 reutilizables y fáciles de mantener. Su uso adecuado simplifica la resolución de problemas, 
 mejora la productividad y constituye la base para avanzar hacia técnicas de programación 
 más avanzadas, garantizando la eficiencia y calidad del software.
 """
-# Referencias
+ 
 """
+Referencias
 [1] M. Lutz, Programming Python, 4th ed., O’Reilly Media, 2011.
 [2] A. Sweigart, Automate the Boring Stuff with Python, 2nd ed., No Starch Press, 2019.
 [3] D. Beazley and B. K. Jones, Python Cookbook, 3rd ed., O’Reilly Media, 2013.
